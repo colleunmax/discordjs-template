@@ -1,0 +1,18 @@
+{
+  "name": "discordjs-template",
+  "version": "0.0.0",
+  "description": "A simple template for discordjs bot in typescript, inspired by the fiibot-common repo on github",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "discordjs",
+    "bot",
+    "template"
+  ],
+  "author": "Colle Joulian",
+  "license": "MIT"
+}
