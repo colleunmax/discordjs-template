@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "noImplicitAny": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "target": "ESNext",
+        "skipLibCheck": true,
+        "declaration": true,
+        "moduleResolution": "node",
+        "module": "esnext",
+        "esModuleInterop": true,
+        "strict": true,
+        "incremental": true,
+        "removeComments": true,
+        "pretty": false,
+    },
+    "include": ["src/**/*"],
+    "exclude": [
+        "src/**/__test__/*.test.ts",
+    ],
+}
