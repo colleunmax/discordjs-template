@@ -1,28 +1,29 @@
 {
   "name": "discordjs-template",
   "version": "0.0.0",
-  "description": "A simple template for discordjs bot in typescript, inspired by the fiibot-common repo on github",
-  "main": "dist/index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "discord",
-    "discordjs",
-    "bot",
-    "template"
-  ],
-  "author": "Colle Joulian",
-  "license": "MIT",
+  "author": "colleunmax",
+  "main": "src/main.ts",
   "devDependencies": {
     "@eslint/js": "^9.28.0",
-    "@stylistic/eslint-plugin-js": "^4.4.0",
+    "@stylistic/eslint-plugin": "^4.4.0",
+    "@types/bun": "^1.2.15",
     "@types/node": "^22.15.29",
     "eslint": "^9.28.0",
     "globals": "^16.2.0",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.33.0",
     "vitest": "^3.2.0"
-  }
+  },
+  "description": "A simple template for discordjs bot in typescript, inspired by the fiibot-common repo on github",
+  "keywords": [
+    "discord",
+    "discordjs",
+    "bot",
+    "template"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "typechecking": "bunx tsc --noEmit"
+  },
+  "type": "module"
 }
